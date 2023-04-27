@@ -1,0 +1,299 @@
+#body {
+  background-color: #ffffff;
+  width: 50ch;
+  height: 90ch;
+  border: solid 4px;
+  border-radius: 45px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+#container {
+  /*background-color: #baa4e1;*/
+  position: relative;
+  background-image: linear-gradient(to top, #6853b8, #bd72b7, #dc8ac6);
+  opacity: 0.7;
+  width: 50ch;
+  height: 35ch;
+  border-radius: 40px 40px 0px 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+#signal {
+  position: relative;
+  color: #fdfcfe;
+  font-size: 18px;
+  font-weight: bold;
+  top: -6.5em;
+  left: 23em;
+  opacity: 0.6;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  margin: auto;
+}
+#wifi {
+  position: relative;
+  color: #fdfcfe;
+  font-size: 18px;
+  font-weight: bold;
+  top: -6.5em;
+  left: 23.5em;
+  opacity: 0.6;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  margin: auto;
+}
+#battery {
+  position: relative;
+  color: #fdfcfe;
+  font-size: 18px;
+  font-weight: bold;
+  top: -6.5em;
+  left: 24em;
+  opacity: 0.6;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  margin: auto;
+}
+#time {
+  position: absolute;
+  color: #fdfcfe;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  top: 1em;
+  left: 2em;
+  opacity: 0.6;
+}
+#fly {
+  position: absolute;
+  color: #fdfcfe;
+  font-weight: bold;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  font-size: 18px;
+  top: 4em;
+  left: 2em;
+  margin: auto;
+}
+#sky {
+  position: absolute;
+  color: #fdfcfe;
+  font-weight: bold;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  font-size: 30px;
+  top: 4.5em;
+  left: 1.2em;
+  margin: auto;
+}
+#airplane {
+  position: absolute;
+  color: white;
+  font-size: 9em;
+  left: 1.4em;
+  top: 1.4ch;
+  opacity: 0.6;
+  margin: auto;
+}
+#input {
+  position: relative;
+  top: 12em;
+  left: 6em;
+  margin: auto;
+}
+#text {
+  border: 1px solid gray;
+  border-radius: 10px;
+  position: relative;
+  padding-left: 2ch;
+  width: 200px;
+  line-height: 6ex;
+  font-size: 16px;
+  color: black;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  margin: auto;
+}
+#from {
+  position: relative;
+  z-index: 1;
+  left: 2em;
+  top: 1ch;
+  background-color: white;
+  color: grey;
+  padding: 0 5px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+}
+#input1 {
+  position: relative;
+  top: 17em;
+  left: -7.86em;
+  margin: auto;
+}
+#text1 {
+  border: 1px solid gray;
+  border-radius: 10px;
+  position: relative;
+  padding-left: 2ch;
+  width: 200px;
+  margin: auto;
+  line-height: 6ex;
+  font-size: 16px;
+  color: black;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+}
+#to {
+  position: relative;
+  z-index: 1;
+  left: 2em;
+  top: 1ch;
+  background-color: white;
+  color: grey;
+  padding: 0 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#reverse {
+  position: relative;
+  margin: auto;
+  right: 2em;
+}
+#rev {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  top: 15em;
+  left: -3.5em;
+  margin: auto;
+  background-color: white;
+  border-radius: 50px;
+  display: inline-block;
+  box-shadow: 2px 2px 5px black;
+}
+#return {
+  position: relative;
+  color: grey;
+  font-size: 30px;
+  top: 8em;
+  right: 4.5em;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  margin: auto;
+}
+#date {
+  position: relative;
+  margin: auto;
+  right: 17.58em;
+}
+#d {
+  position: relative;
+  color: grey;
+  background-color: white;
+  font-size: 20px;
+  top: 18em;
+  left: -6.5em;
+  z-index: 1;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  margin: auto;
+}
+#dat {
+  position: absolute;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 20px;
+  top: 18.5em;
+  left: -8em;
+  width: 150px;
+  border-color: grey;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  line-height: 5ex;
+  padding-left: 1ch;
+  margin: auto;
+}
+#tra {
+  position: relative;
+  margin: auto;
+  right: 18em;
+  top: 22.4em;
+}
+#trav {
+  position: absolute;
+  color: grey;
+  z-index: 1;
+  background-color: white;
+  font-size: 20px;
+  top: -0.5em;
+  left: 1em;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+}
+#travelr {
+  position: absolute;
+  margin: auto;
+  width: 16ex;
+  padding-left: 2ch;
+  line-height: 7ex;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+}
+#srch {
+  position: relative;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+/*#search {
+  position: absolute;
+  margin: auto;
+  width: 20ch;
+  height: 6ch;
+  top: 26em;
+  right: 12.3em;
+  border: 1px;
+  border-radius: 10px 10px 0px 50px;
+  background-image: linear-gradient(
+    to right top,
+    rgb(220, 140, 248, 1),
+    rgb(78, 132, 211, 1)
+  );
+}*/
+input[type='button'] {
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  margin: auto;
+  padding: auto;
+  width: 20ch;
+  height: 6ch;
+  top: 26em;
+  right: 12.3em;
+  border: 1px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #6853b8;
+  /*background-image: linear-gradient(
+    to right top,
+    rgb(220, 140, 248, 1),
+    rgb(78, 132, 211, 1)
+  );*/
+}
+input[type='button']:hover {
+  background-color: #bd72b7;
+}
